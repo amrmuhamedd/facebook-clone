@@ -1,0 +1,22 @@
+.login > div > img:nth-of-type(2) {
+    margin-top: 20px;
+}
+.login > div {
+    display : flex;
+    flex-direction: column;
+}
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.login > button {
+    width: 300px;
+    background-color: #2e81f4;
+    color : #eff2f5;
+    font-weight: 800;
+}
+.login > button:hover {
+    background-color: white;
+    color : #2e81f4;
+}
